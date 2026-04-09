@@ -1,0 +1,98 @@
+{
+    "navbar": {
+        "about": "About",
+        "project": "Projects",
+        "certificate": "Certificates",
+        "contact": "Contact"
+    },
+    "homepage": {
+        "jumbotron": {
+            "introduction": "I'm Kevin Petersen",
+            "description" : "A Computer Science student interested in frontend and backend website/application development, who enjoys on building modern web applications.",
+            "quotes": "Like in a game of MMORPG, I love exploring new worlds, mechanics, and ideas to increase my skills and power.",
+            "detail" : "Detail",
+            "download": "Download Resume"
+        }
+    },
+    "aboutpage": {
+        "mainpage": {
+            "glimpse": "Glimpse Information About Me",
+            "scrolldown": "Scroll Down to see the information"
+        },
+        "information": {
+            "biodata": {
+                "header": "About Me",
+                "introduction": "Hi Again 👋, I'm Kevin Petersen",
+                "intro1": "Hi Again 👋",
+                "intro2": "I'm Kevin Petersen",
+                "description": "I'm an Undergraduate Computer Science Student at Bina Nusantara University with a passion for software and web development from frontend into backend perspective. I love building modern and interactive website applications using the modern tools and technology stacks.",
+                "subdescription": "I'm also passionate about continously exploring and learning about the new tools, techonology stacks, and frameworks that help to improve my skills and abilities in modern website development."
+            },
+            "techstack": {
+                "staytune" : "Stay tuned for new tech stacks"
+            },
+            "education": {
+                "jumbotron": "My Education Journey",
+                "school1": {
+                    "name": "Bina Nusantara University",
+                    "bachelor" : "Bachelor of Computer Science",
+                    "description": "Currently pursuing a Bachelor's degree in Computer Science at Bina Nusantara University with a specialization in Artificial Inteligence (AI). My studies focus on fundamental computer science concepts such as algorithms, data structures, and mathematics while also exploring some AI concepts and and developing practical experience in software, application and web development through academic project and personal projects.",
+                    "area": "Focus Area of Study",
+                    "algorithm": "Algorithm Analysis",
+                    "AI": "Artificial Intelligence",
+                    "web": "Web Development",
+                    "programming": "Programming",
+                    "datastructure": "Data Structures",
+                    "math": "Mathematics",
+                    "gpa": "Current GPA",
+                    "status": "Status",
+                    "graduation": "Expected Graduation: 2026"
+                }
+            },
+            "experience": {
+                "jumbotron": "My Experiences",
+                "experience1": {
+                    "job": "Web Developer (Internship)",
+                    "contribution": {
+                        "1": "Contribute to the development and improvement of an application or website by implementing new features on both the frontend and backend.",
+                        "2": "Improving the quality of the user interface and user experience (UI/UX) to create an engaging and responsive user experiences.",
+                        "3": "Making some adjustment to the flow and logic of the app to make it more consistent and easier for users to understand.",
+                        "4": "Identify, analyze, and resolve issues in applications and websites to improve system performance and stability."
+                    }
+                }
+            }
+        }
+    },
+    "projectpage": {
+        "jumbotron": "Project Lists",
+        "projectlist": {
+            "project_1": {
+                "description": "Developed a company profile website for INTI (Indotama Teknologi Inovasi) that aimed on introducing the company's identity, services, and several AI-based products/solutions in a modern way.",
+                "techstack": "Techstack Used"
+            },
+            "project_2": {
+                "description": "InCustoms is a product from INTI (Indotama Teknologi Inovasi) which designed to assist the extraction and processing of data that contained in documents to improve business operational efficiency.",
+                "techstack": "Techstack Used"
+            },
+            "project_3": {
+                "description": "InMeterai is a product of INTI (Indotama Teknologi Inovasi) which is a digital e-stamping platform that enables users to purchase and apply electronic stamps (e-meterai) to their legal documents.",
+                "techstack": "Techstack Used"
+            },
+            "project_4": {
+                "description": "CuyKerja is a job portal website designed to connect job seekers with employers, allowing users to search for job opportunities and post vacancies to find suitable candidates.",
+                "techstack":"Techstack Used"
+            }
+        },
+        "button": {
+            "visit": "Visit Website",
+            "code": "View Code"
+        }
+    },
+    "certificatepage": {
+        "jumbotron": "Certificate Lists"
+    },
+    "contactpage": {
+        "jumbotron": "Let's Talk",
+        "description": "Feel free to contact and reach me out for collaboration or just a friendly hello."
+    }
+}

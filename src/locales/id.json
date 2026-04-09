@@ -1,0 +1,98 @@
+{
+    "navbar": {
+        "about": "Tentang",
+        "project": "Proyek",
+        "certificate": "Sertifikat",
+        "contact": "Kontak"
+    },
+    "homepage": {
+        "jumbotron": {
+            "introduction": "Aku, Kevin Petersen",
+            "description" : "Seorang mahasiswa dengan jurusan Computer Science yang tertarik pada pengembangan sebuah website/aplikasi berbasis frontend dan backend yang juga senang dalam membangun aplikasi/website yang modern",
+            "quotes": "Seperti dalam permainan MMORPG, saya senang dalam menjelajahi dunia baru, mekanik baru, serta ide-ide baru untuk meningkatkan kekuatan serta kemampuan yang saya miliki.",
+            "detail" : "Detail",
+            "download": "Unduh CV"
+        }
+    },
+    "aboutpage": {
+        "mainpage": {
+            "glimpse": "Sedikit Informasi tentang Saya",
+            "scrolldown": "Geser kebawah untuk melihat informasi selengkapnya"
+        },
+        "information": {
+            "biodata": {
+                "header": "Tentang Saya",
+                "introduction": "Halo lagi👋, Aku, Kevin Petersen",
+                "intro1": "Halo lagi👋",
+                "intro2": "Aku, Kevin Petersen",
+                "description": "Saya adalah mahasiswa dengan jurusan Computer Science di Universitas Bina Nusantara yang memiliki minat besar dalam pengembangan perangkat lunak dan website baik dari perspektif frontend serta backend. Saya senang membangun aplikasi yang modern dan interaktif menggunakan alat serta teknologi terkini.",
+                "subdescription": "Saya juga sangat antusias untuk terus mengeksplorasi dan mempelajari alat-alat baru, stack teknologi terbaru, serta framework baru yang dapat membantu saya dalam meningkatkan keterampilan dan kemampuan saya dalam pengembangan situs website yang modern."
+            },
+            "techstack": {
+                "staytune" : "Nantikan untuk pembaharuan terkait techstack terbaru"
+            },
+            "education": {
+                "jumbotron": "Perjalanan Edukasi saya",
+                "school1": {
+                    "name": "Universitas Bina Nusantara",
+                    "bachelor" : "Jurusan Computer Science",
+                    "description": "Saat ini sedang menempuh program sarjana untuk jurusan Computer Science di Universitas Bina Nusantara dengan spesialisasi/penjurusan Kecerdasan Buatan (AI). Studi saya berfokus pada konsep-konsep dasar ilmu komputer seperti algoritma, struktur data, dan matematika, sekaligus mempelajari beberapa konsep AI serta mengembangkan pengalaman praktis dalam pengembangan perangkat lunak, aplikasi, serta website melalui proyek akademik dan proyek pribadi.",
+                    "area": "Bidang Studi yang difokuskan",
+                    "algorithm": "Analisa Algoritma",
+                    "AI": "Kecerdasan Buatan",
+                    "web": "Pengembangan Website",
+                    "programming": "Pemograman",
+                    "datastructure": "Struktur Data",
+                    "math": "Matematika",
+                    "gpa": "GPA saat ini",
+                    "status": "Status",
+                    "graduation": "Perkiraan Waktu Kelulusan: 2026"
+                }
+            },
+            "experience": {
+                "jumbotron": "Pengalaman Saya",
+                "experience1": {
+                    "job": "Web Developer (Magang)",
+                    "contribution": {
+                        "1": "Berkontribusi dalam pengembangan dan peningkatan sebuah aplikasi atau website dengan mengimplementasikan fitur-fitur baru baik secara frontend maupun backend.",
+                        "2": "Meningkatkan kualitas sistem antarmuka dan pengalaman pengguna (UI/UX) untuk menciptakan alur tampilan yang menarik dan responsif.",
+                        "3": "Melakukan beberapa penyesuaian terhadap alur dan logika dalam aplikasi agar lebih konsisten dan lebih mudah dipahami oleh pengguna.",
+                        "4": "Mengidentifikasi, menganalisis, serta memperbaiki permasalahan yang ada dalam aplikasi/website untuk meningkatkan performa dan stabilitas dari sistem"
+                    }
+                }
+            }
+        }
+    },
+    "projectpage": {
+        "jumbotron": "Proyek yang sudah dikerjakan",
+        "projectlist": {
+            "project_1": {
+                "description": "Berperan dalam mengembangkan situs web profil perusahaan untuk PT INTI (Indotama Teknologi Inovasi) yang bertujuan untuk memperkenalkan identitas perusahaan, layanan, serta berbagai produk dan solusi berbasis kecerdasan buatan (AI) secara modern.",
+                "techstack": "Techstack yang digunakan"
+            },
+            "project_2": {
+                "description": "InCustoms adalah produk dari PT INTI (Indotama Teknologi Inovasi) yang dirancang untuk membantu proses ekstraksi serta pemrosesan data yang terdapat dalam dokumen guna meningkatkan efisiensi operasional bisnis.",
+                "techstack": "Techstack yang digunakan"
+            },
+            "project_3": {
+                "description": "InMeterai adalah produk dari PT INTI (Indotama Teknologi Inovasi) yang merupakan sebuah platform e-meterai digital yang memungkinkan pengguna untuk membeli dan menempelkan meterai elektronik (e-meterai) pada dokumen legal pengguna.",
+                "techstack": "Techstack yang digunakan"
+            },
+            "project_4": {
+                "description": "CuyKerja adalah situs portal lowongan kerja yang dirancang untuk menghubungkan pencari kerja dengan rekruter, sehingga pengguna dapat mencari peluang kerja dan memposting lowongan pekerjaan untuk menemukan kandidat yang sesuai.",
+                "techstack":"Techstack yang digunakan"
+            }
+        },
+        "button": {
+            "visit": "Kunjungi Website",
+            "code": "Lihat Code"
+        }
+    },
+    "certificatepage": {
+        "jumbotron": "Sertifikat yang sudah dimiliki"
+    },
+    "contactpage": {
+        "jumbotron": "Mari Mengobrol",
+        "description": "Jangan ragu untuk menghubungi saya, baik untuk bekerja sama maupun hanya untuk sekedar menyapa"
+    }
+}
