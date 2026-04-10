@@ -6,14 +6,10 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
+  base: process.env.VITE_BASE_PATH || "/personal_website",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-  },
-  server: {
-    host: true,       // listen di semua IP
-    port: 5173,       // bisa disesuaikan
-    strictPort: true, // gagal start kalau port sudah dipakai
-  },
+  }
 })
