@@ -33,7 +33,7 @@ export const AboutPage = () => {
         </div>
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="2000" className="w-full border-2 rounded-lg bg-gradient-to-b from-gray-200/70 to-gray-300/70 dark:from-slate-800/70 dark:to-slate-900/70 border-gray-500 p-6 md:p-8 lg:p-10">
+      <div className="w-full border-2 rounded-lg bg-gradient-to-b from-gray-200/70 to-gray-300/70 dark:from-slate-800/70 dark:to-slate-900/70 border-gray-500 p-6 md:p-8 lg:p-10">
         <Information />
       </div>
     </div>

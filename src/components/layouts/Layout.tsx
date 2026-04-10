@@ -2,11 +2,13 @@ import { Outlet } from "react-router-dom"
 import DarkVeil from "../DarkVeil"
 import Navbar from "./Navbar"
 import { useThemeStore } from "@/stores/ThemeStore"
+import ScrollToTop from "@/utils/ScrollToTop"
 
 const Layout = () => {
     const {isDark} = useThemeStore();
     return (
         <div className="relative min-h-screen bg-gray-50 dark:bg-black overflow-x-hidden outline-2 transition-color duration-700 ease-in-out">
+            <ScrollToTop />
             <div className={`fixed inset-0 z-0 pointer-events-none overflow-hidden transition-opacity duration-700 ease-in-out opacity-0 ${isDark ? 
                 "opacity-100" : "opacity-0"
             }`}>
