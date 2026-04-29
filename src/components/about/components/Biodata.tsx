@@ -9,8 +9,7 @@ const Biodata = () => {
 
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-4 md:gap-2 gap-0 w-full max-w-6xl">
           <div data-aos="fade-right" data-aos-duration="2000" className="flex flex-col justify-center items-center">
-              <img src="/images/Profile.jpeg" className="w-100 h-auto object-cover rounded-lg" loading="lazy"/>
-              <h1>NB: Foto Graduation aja</h1>
+              <img src="/images/Testimoni1.png" className="w-100 h-auto object-cover rounded-lg" loading="lazy"/>
           </div>
 
           <div data-aos="fade-left" data-aos-duration="2000" className="flex flex-col gap-4 lg:gap-6 break-words">
