@@ -106,15 +106,15 @@ const Education = () => {
 
               {/* Kanan */}
               <div className="flex flex-col gap-6 w-full lg:w-1/3 justify-between break-all">
-                <div className="w-full p-6 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 border-cyan-400/30 shadow-lg shadow-cyan-500/10 backdrop-blur-xl border-3 rounded-md flex flex-col gap-2 justify-center items-center">
+                <div className="w-full p-5 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 border-cyan-400/30 shadow-lg shadow-cyan-500/10 backdrop-blur-xl border-3 rounded-md flex flex-col gap-2 justify-center items-center">
                   <FaMedal size={40}/>
                   <h1 className="text-xl font-bold">{t("aboutpage.information.education.school1.gpa")}</h1>
-                  <h1 className="font-extrabold text-3xl">3.84 / 4.00</h1>
+                  <h1 className="font-extrabold text-3xl text-center">3.84 / 4.00</h1>
                 </div>
-                <div className="w-full p-6 bg-yellow-500/20 border border-yellow-400/30 shadow-yellow-500/10 border-3 backdrop-blur-xl rounded-md flex flex-col gap-2 justify-center items-center">
+                <div className="w-full p-5 bg-yellow-500/20 border border-yellow-400/30 shadow-yellow-500/10 border-3 backdrop-blur-xl rounded-md flex flex-col gap-2 justify-center items-center">
                   <FaUserGraduate size={40}/>
                   <h1 className="text-xl font-bold">{t("aboutpage.information.education.school1.status")}</h1>
-                  <h1 className="font-bold text-lg text-center">{t("aboutpage.information.education.school1.graduation")}</h1>
+                  <h1 className="font-bold text-lg text-center break-all">{t("aboutpage.information.education.school1.graduation")}</h1>
                 </div>
               </div>
             </div>

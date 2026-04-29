@@ -7,7 +7,6 @@ interface ThemeState {
     isLight: boolean;
     isDark: boolean;
     toggleTheme: () => void;
-    setTheme: (theme: Theme) => void;
 }
 
 const getSystemTheme = (): Theme => {
@@ -34,13 +33,5 @@ export const useThemeStore = create<ThemeState>((set) => {
                     isDark: newTheme === "dark",
                 };
             }),
-        setTheme: (theme: Theme) => {
-            localStorage.setItem("ui-theme", theme);
-            set({
-                theme: theme,
-                isLight: theme === "light",
-                isDark: theme === "dark",
-            });
-        },
     };
 })

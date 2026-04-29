@@ -2,13 +2,12 @@ import { useState } from "react";
 import { Button } from "../ui/button"
 import { IoMdMoon, IoMdSunny } from "react-icons/io";
 import { useThemeStore } from "@/stores/ThemeStore";
-import { useTranslation } from "react-i18next";
+import { useLanguageStore } from "@/stores/LanguageStore";
 
 const SettingButton = () => {
     const { toggleTheme, theme, isDark } = useThemeStore();
     const [click, setClick] = useState<boolean>(false);
-    const { i18n } = useTranslation();
-    const currentLanguage = i18n.language.split('-')[0];
+    const { language , toggleLanguage } = useLanguageStore();
 
     const handleToggle = () => {
         setClick(true);
@@ -17,15 +16,11 @@ const SettingButton = () => {
             setClick(false);
         }, 400)
     }
-    const handleLanguage = () => {
-        const newLanguage = currentLanguage === "id" ? "en" : "id";
-        i18n.changeLanguage(newLanguage);
-    }
 
     return (
         <div className="flex flex-row gap-6 justify-center">
-            <Button variant="ghost" onClick={handleLanguage} className="relative rounded-full overflow-hidden w-8 h-8 p-0">
-                <img src={`${currentLanguage === "id" ? "/images/Indo.png" : "/images/English.png"}`} loading="lazy" className="w-full h-full object-cover transition-all duration-300 ease-in-out" />
+            <Button variant="ghost" onClick={toggleLanguage} className="relative rounded-full overflow-hidden w-8 h-8 p-0 cursor-pointer">
+                <img src={`${language === "id" ? "/images/Indo.png" : "/images/English.png"}`} loading="lazy" className="w-full h-full object-cover transition-all duration-300 ease-in-out" />
                 <div className="absolute inset-0 b-black/0 transition-colors duration-300 ease-in-out hover:bg-black/10"/>
             </Button>
 
@@ -35,7 +30,7 @@ const SettingButton = () => {
                 className={`
                     relative overflow-hidden rounded-full w-8 h-8 p-0
                     flex items-center justify-center
-                    transition-color duration-300 ease-in-out
+                    transition-color duration-300 ease-in-out cursor-pointer
                     
                     ${theme === "dark"
                         ? "bg-[#09b4d6]"
