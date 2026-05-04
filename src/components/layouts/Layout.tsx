@@ -7,12 +7,11 @@ import ScrollToTop from "@/utils/ScrollToTop"
 const Layout = () => {
     const {isDark} = useThemeStore();
     return (
-        <div className="relative min-h-screen bg-gray-50 dark:bg-black overflow-x-hidden outline-2 transition-color duration-700 ease-in-out">
+        <div className="relative min-h-screen bg-white dark:bg-black overflow-x-hidden outline-2 transition-color duration-700 ease-in-out">
             <ScrollToTop />
-            <div className={`fixed inset-0 z-0 pointer-events-none overflow-hidden transition-opacity duration-700 ease-in-out opacity-0 ${isDark ? 
-                "opacity-100" : "opacity-0"
-            }`}>
-                <DarkVeil
+            <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden transition-opacity duration-700 ease-in-out">
+                 {isDark ? (
+                    <DarkVeil
                     hueShift={45}
                     noiseIntensity={0.07}
                     scanlineIntensity={0.05}
@@ -20,7 +19,11 @@ const Layout = () => {
                     scanlineFrequency={0}
                     warpAmount={0.25}
                     resolutionScale={1.25}
-                />
+                    />
+                ) : (
+                   <div>
+                    </div>
+                )}
             </div>
             <Navbar />            
 

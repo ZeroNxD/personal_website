@@ -13,7 +13,7 @@ const ProjectList = () => {
   return (
     <div className="flex flex-col gap-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto items-stretch items-start max-w-6xl p-6">
-            <div data-aos="fade-right" data-aos-duration="2000" className="flex flex-col gap-8 p-4 py-8 rounded-xl bg-gradient-to-b from-gray-200/70 to-gray-300/70 dark:from-slate-800/70 dark:to-slate-900/70 backdrop-blur-md border-2 border-black dark:border-white/30">
+            <div data-aos="fade-right" data-aos-duration="2000" className="flex flex-col gap-8 p-4 py-8 rounded-xl bg-gradient-to-b from-gray-100/70 to-gray-200/70 dark:from-slate-800/70 dark:to-slate-900/70 backdrop-blur-md border-3 border-black dark:border-white/30">
                 <img src="/images/INTI-Website.png" alt="" className="rounded-lg w-full aspect-video object-cover border-2 border-gray-700 dark:border-gray-400" loading="lazy"/>
                 <div className="flex flex-col gap-4 items-center h-full flex-1">
                     <h1 className="font-bebas tracking-wider text-2xl lg:text-3xl text-center">Company Profile Website INTI</h1>
@@ -81,7 +81,7 @@ const ProjectList = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="2000" className="flex flex-col gap-8 p-4 py-8 rounded-xl bg-gradient-to-b from-gray-200/70 to-gray-300/70 dark:from-slate-800/70 dark:to-slate-900/70 backdrop-blur-md border-2 border-black dark:border-white/30">
+            <div data-aos="fade-left" data-aos-duration="2000" className="flex flex-col gap-8 p-4 py-8 rounded-xl bg-gradient-to-b from-gray-100/70 to-gray-200/70 dark:from-slate-800/70 dark:to-slate-900/70 backdrop-blur-md border-3 border-black dark:border-white/30">
                 <img src="/images/InCustoms-Website.png" alt="" className="rounded-lg w-full aspect-video object-cover border-2 border-gray-400" loading="lazy"/>
                 <div className="flex flex-col gap-4 items-center h-full flex-1">
                     <h1 className="font-bebas tracking-wider text-2xl lg:text-3xl text-center">InCustoms</h1>
@@ -167,7 +167,7 @@ const ProjectList = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto items-stretch items-start max-w-6xl p-6">
-            <div data-aos="fade-right" data-aos-duration="2000" className="flex flex-col gap-8 p-4 py-8 rounded-xl bg-gradient-to-b from-gray-200/70 to-gray-300/70 dark:from-slate-800/70 dark:to-slate-900/70 backdrop-blur-md border-2 border-black dark:border-white/30">
+            <div data-aos="fade-right" data-aos-duration="2000" className="flex flex-col gap-8 p-4 py-8 rounded-xl bg-gradient-to-b from-gray-100/70 to-gray-200/70 dark:from-slate-800/70 dark:to-slate-900/70 backdrop-blur-md border-3 border-black dark:border-white/30">
                 <img src="/images/InMeterai-website.png" alt="" className="rounded-lg w-full aspect-video object-cover border-2 border-gray-700 dark:border-gray-400" loading="lazy"/>
                 <div className="flex flex-col gap-4 items-center h-full flex-1">
                     <h1 className="font-bebas tracking-wider text-2xl lg:text-3xl text-center">InMeterai</h1>
@@ -234,7 +234,7 @@ const ProjectList = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="2000" className="flex flex-col gap-8 p-4 py-8 rounded-xl bg-gradient-to-b from-gray-200/70 to-gray-300/70 dark:from-slate-800/70 dark:to-slate-900/70 backdrop-blur-md border-2 border-black dark:border-white/30">
+            <div data-aos="fade-left" data-aos-duration="2000" className="flex flex-col gap-8 p-4 py-8 rounded-xl bg-gradient-to-b from-gray-100/70 to-gray-200/70 dark:from-slate-800/70 dark:to-slate-900/70 backdrop-blur-md border-3 border-black dark:border-white/30">
                 <img src="/images/CuyKerja-website.png" alt="" className="rounded-lg w-full aspect-video object-cover border-2 border-gray-700 dark:border-gray-400" loading="lazy"/>
                 <div className="flex flex-col gap-4 items-center h-full flex-1">
                     <h1 className="font-bebas tracking-wider text-2xl lg:text-3xl text-center">CuyKerja</h1>

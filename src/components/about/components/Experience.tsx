@@ -14,7 +14,7 @@ const Experience = () => {
         <div className="flex flex-col gap-15">
           <div className="flex flex-row gap-4 md:gap-6 lg:gap-8 w-full">
             <div className="w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 rounded-full border-2 border-black/80 dark:border-white/80 bg-cyan-500/70 backdrop-blur-xl flex-shrink-0 self-center"></div>
-            <div data-aos="zoom-in" data-aos-duration="1500" className="flex flex-col gap-8 border-2 border-black dark:border-white p-4 md:p-6 lg:p-8 rounded-lg w-full break-words">
+            <div data-aos="zoom-in" data-aos-duration="1500" className="flex flex-col gap-8 border-2 border-black dark:border-white p-4 md:p-6 lg:p-8 rounded-lg w-full break-words bg-[#04bdd1]/5 dark:bg-[#04bdd1]/0">
               <div className="flex flex-col lg:flex-row w-full gap-4 lg:gap-0 justify-between min-w-0">
                 <div className="flex flex-row gap-4">
                     <div className="aspect-square w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-white/70 dark:bg-white/30 p-3 rounded-xl">

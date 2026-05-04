@@ -11,7 +11,7 @@ const Navbar = () => {
     const  {theme } = useThemeStore();
 
     return (
-        <div className="fixed top-0 left-0 w-full backdrop-blur-md bg-gray-100/80 md:bg-gray-100/70 lg:bg-gray-100/50 dark:bg-black/80 dark:md:bg-black/70 dark:lg:bg-black/50 font-roboto text-black dark:text-white z-50 inset-x-0 h-fit">
+        <div className="fixed top-0 left-0 w-full backdrop-blur-md bg-[#989b9c]/35 md:bg-[#989b9c]/30 lg:bg-[#989b9c]/20 dark:bg-black/80 dark:md:bg-black/70 dark:lg:bg-black/50 font-roboto text-black dark:text-white z-50 inset-x-0 h-fit">
             <div className="py-6 px-6 md:px-12 lg:px-30 mb-0 flex justify-between w-full items-center">
                 <div className="flex flex-row gap-4 justify-start items-center">
                     <Link to={"/"} onClick={close} className="flex items-center gap-4">
@@ -38,7 +38,7 @@ const Navbar = () => {
             </div>
 
             {isOpen && (
-                <div className="absolute top-full left-0 w-full h-screen md:hidden flex flex-col gap-6 px-6 !backdrop-blur-md bg-gray-100/95 dark:bg-black/95 z-50">
+                <div className="absolute top-full left-0 w-full h-screen md:hidden flex flex-col gap-6 px-6 !backdrop-blur-md bg-[#d8dada]/95 dark:bg-black/95 z-50">
                     <NavigationContent />
                 </div>
             )}

@@ -7,7 +7,7 @@ const CTA = () => {
         <a 
           href="https://wa.me/6281211137770" 
           target="_blank" 
-          className="p-4 md:p-6 lg:p-8 flex flex-row lg:flex-col items-center justify-start gap-6 bg-gradient-to-br from-gray-100/70 to-gray-200/70 dark:from-slate-800/80 dark:to-slate-900/80 border-3 border border-green-400/50 hover:border-green-400/80 hover:shadow-lg hover:shadow-green-500/10 backdrop-blur-xl rounded-xl  transition-color duration-300 ease-in-out">
+          className="p-4 md:p-6 lg:p-8 flex flex-row lg:flex-col items-center justify-start gap-6 bg-gradient-to-br from-green-100/70 to-green-200/70 dark:from-green-400/30 dark:to-green-500/30 border-3 border border-green-400/50 hover:border-green-400/80 hover:shadow-lg hover:shadow-green-500/10 backdrop-blur-xl rounded-xl  transition-color duration-300 ease-in-out">
             <div className="bg-[#c3f7c9] p-2 rounded-lg">
               <FaWhatsapp className="text-4xl lg:text-8xl text-green-400" />
             </div>
@@ -19,7 +19,7 @@ const CTA = () => {
         <a 
           href="https://www.linkedin.com/in/kevin-petersen-9174a1251/" 
           target="_blank" 
-          className="p-4 md:p-6 lg:p-8 flex flex-row lg:flex-col items-center justify-start gap-6 bg-gradient-to-br from-gray-100/70 to-gray-200/70 dark:from-slate-800/80 dark:to-slate-900/80 border-3 border border-[#0266c8]/50 hover:border-[#0266c8]/80 hover:shadow-lg hover:shadow-[#0266c8]/10 backdrop-blur-xl rounded-xl transition-color duration-300 ease-in-out">
+          className="p-4 md:p-6 lg:p-8 flex flex-row lg:flex-col items-center justify-start gap-6 bg-gradient-to-br from-blue-100/70 to-blue-200/70 dark:from-blue-400/30 dark:to-blue-500/30 border-3 border border-[#0266c8]/50 hover:border-[#0266c8]/80 hover:shadow-lg hover:shadow-[#0266c8]/10 backdrop-blur-xl rounded-xl transition-color duration-300 ease-in-out">
             <div className="bg-[#a2cffa] p-2 rounded-lg">
               <FaLinkedin className="text-4xl lg:text-8xl text-[#0266c8]" />
             </div>
@@ -31,7 +31,7 @@ const CTA = () => {
         <a 
           href="mailto:petersenkevin123@gmail.com" 
           target="_blank" 
-          className="p-4 md:p-6 lg:p-8 flex flex-row lg:flex-col items-center justify-start gap-6 bg-gradient-to-br from-gray-100/70 to-gray-200/70 dark:from-slate-800/80 dark:to-slate-900/80 border-3 border border-[#be4337]/50 hover:border-[#be4337]/80 hover:shadow-lg hover:shadow-[#be4337]/10 backdrop-blur-xl rounded-xl transition-color duration-300 ease-in-out">
+          className="p-4 md:p-6 lg:p-8 flex flex-row lg:flex-col items-center justify-start gap-6 bg-gradient-to-br from-red-100/70 to-red-200/70 dark:from-red-400/30 dark:to-red-500/30 border-3 border border-[#be4337]/50 hover:border-[#be4337]/80 hover:shadow-lg hover:shadow-[#be4337]/10 backdrop-blur-xl rounded-xl transition-color duration-300 ease-in-out">
             <div className="bg-[#f7b6b0] p-2 rounded-lg">
               <MdOutlineMailOutline className="text-4xl lg:text-8xl text-[#be4337]" />
             </div>
@@ -43,7 +43,7 @@ const CTA = () => {
         <a 
           href="https://github.com/ZeroNxD" 
           target="_blank" 
-          className="p-4 md:p-6 lg:p-8 flex flex-row lg:flex-col items-center justify-start gap-6 bg-gradient-to-br from-gray-100/70 to-gray-200/70 dark:from-slate-800/80 dark:to-slate-900/80 border-3 border-gray-500 dark:border-white/50 hover:border-gray-800 dark:hover:border-white/80 hover:shadow-lg hover:shadow-white/10 backdrop-blur-xl rounded-xl transition-color duration-300 ease-in-out">
+          className="p-4 md:p-6 lg:p-8 flex flex-row lg:flex-col items-center justify-start gap-6 bg-gradient-to-br from-black/10 to-black/10 dark:from-slate-800/80 dark:to-slate-900/80 border-3 border-gray-500 dark:border-white/50 hover:border-gray-800 dark:hover:border-white/80 hover:shadow-lg hover:shadow-white/10 backdrop-blur-xl rounded-xl transition-color duration-300 ease-in-out">
             <div className="bg-white p-2 rounded-lg">
               <FaGithub className="text-4xl lg:text-8xl text-black" />
             </div>

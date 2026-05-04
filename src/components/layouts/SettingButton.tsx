@@ -34,7 +34,7 @@ const SettingButton = () => {
                     
                     ${theme === "dark"
                         ? "bg-[#09b4d6]"
-                        : "bg-gray-200"}
+                        : "bg-white"}
 
                     before:absolute before:inset-0
                     before:rounded-full
@@ -44,7 +44,7 @@ const SettingButton = () => {
                     hover:before:scale-100
                     ${theme === "dark"
                         ? "before:bg-[#078aa5]" 
-                        : "before:bg-gray-500/50"}
+                        : "before:bg-gray-500/10"}
 
                     after:absolute after:inset-0
                     after:rounded-full

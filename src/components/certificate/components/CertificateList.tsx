@@ -28,7 +28,7 @@ const CertificateList = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {certificates.map((cert, i) => (
-          <div key={i} onClick={() => openPDF(cert.pdf)} data-aos="fade-right" data-aos-duration="2000" className="cursor-pointer p-4 rounded-xl overflow-hidden bg-gradient-to-br from-gray-200/70 to-gray-300/70 dark:from-gray-900 dark:to-gray-800 border border-black dark:border-gray-700 shadow-md shadow-[0_0_20px_rgba(0,255,255,0.08)] hover:shadow-xl transition hover:translate-y-1 hover:border-2 hover:border-black dark:hover:border-white">
+          <div key={i} onClick={() => openPDF(cert.pdf)} data-aos="fade-right" data-aos-duration="2000" className="cursor-pointer p-4 rounded-xl overflow-hidden bg-gradient-to-br from-gray-100/70 to-gray-200/70 dark:from-gray-900 dark:to-gray-800 border-2 border-black dark:border-gray-700 shadow-md shadow-[0_0_20px_rgba(0,255,255,0.08)] hover:shadow-xl transition hover:translate-y-1 hover:border-3 hover:border-black dark:hover:border-white">
               <div className="w-full aspect-[4/3] overflow-hidden">
                 <img src={cert.image} alt={cert.skills} className="w-full h-full object-cover rounded-xl transition duration-300 group-hover:scale-105" loading="lazy" />
               </div>

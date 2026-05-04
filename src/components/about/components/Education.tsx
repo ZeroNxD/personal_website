@@ -17,7 +17,7 @@ const Education = () => {
           {t("aboutpage.information.education.jumbotron")}
         </h1>
 
-        <div data-aos="fade-up-right" data-aos-duration="1500" className="flex flex-col gap-10 w-full"> 
+        <div data-aos="fade-up-right" data-aos-duration="1500" className="flex flex-col gap-10 w-full bg-[#04bdd1]/5 dark:bg-[#04bdd1]/0"> 
           <div className="border-3 border-black dark:border-white rounded-md p-4 lg:p-8 backdrop-blur-xl hover:bg-gray-400/10 dark:hover:bg-gray-500/10 transition-color duration-300 ease-in-out">
             <div className="flex flex-col lg:flex-row gap-10 lg:gap-6 w-full">
               {/* Kiri */}
