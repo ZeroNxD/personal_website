@@ -11,7 +11,7 @@ const Navbar = () => {
     const  {theme } = useThemeStore();
 
     return (
-        <div className="fixed top-0 left-0 w-full backdrop-blur-md bg-[#989b9c]/35 md:bg-[#989b9c]/30 lg:bg-[#989b9c]/20 dark:bg-black/80 dark:md:bg-black/70 dark:lg:bg-black/50 font-roboto text-black dark:text-white z-50 inset-x-0 h-fit">
+        <div className="fixed top-0 left-0 w-full backdrop-blur-md bg-[#989b9c]/25 md:bg-[#989b9c]/20 lg:bg-[#989b9c]/20 dark:bg-black/80 dark:md:bg-black/70 dark:lg:bg-black/50 font-roboto text-black dark:text-white z-50 inset-x-0 h-fit">
             <div className="py-6 px-6 md:px-12 lg:px-30 mb-0 flex justify-between w-full items-center">
                 <div className="flex flex-row gap-4 justify-start items-center">
                     <Link to={"/"} onClick={close} className="flex items-center gap-4">
