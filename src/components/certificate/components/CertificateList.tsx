@@ -23,6 +23,13 @@ const CertificateList = () => {
       date: "MAR 2026",
       pdf: "/pdf/python-basic-certificate.pdf",
     },
+    {
+      image: "/images/certificates/javascript-basic-certificate.jpeg",
+      skills: "JavaScript (Basic)",
+      institute: "HackerRank",
+      date: "MEI 2026",
+      pdf: "/pdf/javascript-basic-certificate.pdf",
+    },
   ]
 
   return (
