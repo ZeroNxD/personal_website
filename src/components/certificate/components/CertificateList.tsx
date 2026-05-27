@@ -24,11 +24,25 @@ const CertificateList = () => {
       pdf: "/pdf/python-basic-certificate.pdf",
     },
     {
+      image: "/images/certificates/java-basic-certificate.jpeg",
+      skills: "Java (Basic)",
+      institute: "HackerRank",
+      date: "MEI 2026",
+      pdf: "/pdf/java-basic-certificate.pdf",
+    },
+    {
       image: "/images/certificates/javascript-basic-certificate.jpeg",
       skills: "JavaScript (Basic)",
       institute: "HackerRank",
       date: "MEI 2026",
       pdf: "/pdf/javascript-basic-certificate.pdf",
+    },
+    {
+      image: "/images/certificates/javascript-intermediate-certificate.jpeg",
+      skills: "JavaScript (Intermediate)",
+      institute: "HackerRank",
+      date: "MEI 2026",
+      pdf: "/pdf/javascript-intermediate-certificate.pdf",
     },
   ]
 
